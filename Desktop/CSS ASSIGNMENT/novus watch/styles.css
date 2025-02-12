@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9b9bb5;
+    font-family: Arial, sans-serif;
+}
+.card {
+    width: 350px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.badge {
+    position: absolute;
+    background: #F8DE7E;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    top: 10px;
+    left: 10px;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.content span {
+    font-size: 14px;
+    color: gray;
+}
+.content p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}

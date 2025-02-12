@@ -1,0 +1,15 @@
+# Ignore system and personal files
+.vscode/
+AppData/
+Contacts/
+Documents/
+Downloads/
+Favorites/
+Music/
+Pictures/
+Videos/
+OneDrive/
+desktop.ini
+*.dat
+*.lnk
+*.ex
